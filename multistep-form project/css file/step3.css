@@ -1,0 +1,405 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+/* for desktop */
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height:70%;
+    width:55%;
+    border-radius: 2%;
+    background-color: white;
+    display: flex;
+   border-color: #bababa;
+    
+}
+/* side part */
+.s1{
+height: 100%;
+width: 30%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+
+}
+
+.ss1{
+   
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sideimg{
+height:96%;
+width: 95%;
+  
+      
+     
+}
+
+.steps{
+font-family: 'Ubuntu', sans-serif;
+}
+/* step 1 */
+.numbers{
+    list-style: none;
+    position:absolute;
+    top: 8%;
+bottom: 56%;
+left:10%;
+color: white;
+height:30px;
+width:30px;
+font-size: 20px;
+border:1px solid white;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.parts{
+position: absolute;
+top: 7%;
+bottom: 50%;
+left:25%;
+color:#9c9c9c;
+font-weight: light;
+
+}
+.list{
+    list-style: none;
+    position:absolute;
+    top: 10%;
+bottom: 50%;
+left:25%;
+color: white;
+
+;
+}
+
+/* step 2 */
+.numbers2{
+    list-style: none;
+    position:absolute;
+    top: 18%;
+bottom: 56%;
+left:10%;
+color: white;
+height:30px;
+width:30px;
+font-size: 20px;
+border:1px solid white;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.parts2{
+    position: absolute;
+    top: 17%;
+    bottom: 50%;
+    left:25%;
+    color:#9c9c9c;
+    font-weight: light;
+    
+    }
+    .list2{
+        list-style: none;
+        position:absolute;
+        top: 20%;
+    bottom: 50%;
+    left:25%;
+    color: white;
+    
+    ;
+    }
+
+    /* step 3 */
+
+    .numbers3{
+        list-style: none;
+        position:absolute;
+        top: 27%;
+    bottom: 56%;
+    left:10%;
+    color: white;
+    height:30px;
+    width:30px;
+    font-size: 20px;
+    border:1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #80aed9;
+    }
+    
+    .parts3{
+        position: absolute;
+        top: 26%;
+        bottom: 50%;
+        left:25%;
+        color:#9c9c9c;
+        font-weight: light;
+        
+        }
+        .list3{
+            list-style: none;
+            position:absolute;
+            top: 29%;
+        bottom: 50%;
+        left:25%;
+        color: white;
+        
+        ;
+        }
+    
+        /* step 4 */
+
+        .numbers4{
+            list-style: none;
+            position:absolute;
+            top: 36%;
+        bottom: 56%;
+        left:10%;
+        color: white;
+        height:30px;
+        width:30px;
+        font-size: 20px;
+        border:1px solid white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        
+        .parts4{
+            position: absolute;
+            top: 35%;
+            bottom: 50%;
+            left:25%;
+            color:#9c9c9c;
+            font-weight: light;
+            
+            }
+            .list4{
+                list-style: none;
+                position:absolute;
+                top: 38%;
+            bottom: 50%;
+            left:25%;
+            color: white;
+            
+            ;
+            }
+
+    /* box 2 section */
+    .s2{
+        height: 100%;
+        width: 70%;
+     
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Ubuntu', sans-serif;
+        flex-direction: column;
+        
+        
+    }
+    
+    .ss2{
+        height:70%;
+        width:85%;
+        margin-bottom: 40px;
+       
+     
+        
+    }
+    
+    h2{
+        color:#0d3069;
+        font-size: 30px;
+    }
+    
+    #info{
+        color:#88898a;
+        padding-top: 5px;
+        font-size: 18px;
+    }
+    
+
+    .sss2{
+        height:80%;
+        width: 90%;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+   
+    }
+
+    .largerStorage{
+        height:70px;
+        width: 100%;
+        border:1px solid #88898a;
+        cursor: pointer;
+        border-radius: 5px;
+        display: flex;
+        
+
+    }
+    .largerStorage:hover{
+        border-color:blueviolet;
+    }
+
+    .change-largerStorage{
+        background-color: aliceblue;
+        border-color: blueviolet;
+    }
+
+    .customizableProfile{
+        height:70px;
+        width: 100%;
+        border:1px solid #88898a;
+        cursor: pointer;
+        border-radius: 5px;
+        display: flex;
+        
+
+    }
+    .customizableProfile:hover{
+        border-color:blueviolet;
+    }
+
+    .change-customizableProfile{
+        background-color: aliceblue;
+        border-color: blueviolet;
+    }
+
+
+    .onlineService{
+        height:70px;
+        width: 100%;
+        border:1px solid #88898a;
+        cursor: pointer;
+        border-radius: 5px;
+        display: flex;
+        
+
+    }
+    .onlineService:hover{
+        border-color:blueviolet;
+    }
+
+    .change-onlineService{
+        background-color: aliceblue;
+        border-color: blueviolet;
+    }
+
+
+.checkbox{
+    width:20px;
+    margin-left: 15px;
+    border-color: #bababa;
+    border: none;
+    outline: none;
+}
+
+    .text-section{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+        margin-left: 20px;
+    }
+
+    .small-des{
+        color: #9c9c9c;
+      
+        
+     
+    }
+
+    h3, .small-des {
+        display: inline-block;
+        width: 100%; /* Make sure each line takes up 100% width of the container */
+    }
+
+    h3{
+        margin-top: 10px;
+      
+        color: #0d3069;
+    
+    }
+
+    .dollar{
+        margin-left: auto;
+        align-self: center;
+        margin-right: 15px;
+        color: blueviolet;
+    }
+
+    /* buttons */
+    .btns{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+     
+    }
+    
+    .go-back{
+        height:50px;
+        width:110px;
+        color:#0d3069;
+        font-size: 20px;
+        border:none;
+        background-color: white;
+        cursor: pointer;
+    
+    
+    }
+    
+    .next{
+        height:50px;
+        width:110px;
+        color:white;
+        background-color: #0d3069;
+        border:none;
+        border-radius: 5px;
+        font-size: 18px;
+       margin-left: 30%;
+       cursor: pointer;
+    
+    
+    }
+
+    .next:hover{
+        background-color: #80aed9;
+    }
